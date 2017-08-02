@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/cyborg/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="page-header">
+            <h1 class="text-center">Can you guess my favorite American singers/musicians?</h1> 
+            <div class="alert alert-warning">
+                <h3 class="text-center">If you lose, you will be hanged!</h3>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-xs-12 col-sm-6">
+               <div class="row">
+                   <img class="img-responsive" id="game_img" src="assets/images/hangman0.png">
+               </div>
+               <div class="row" id="audio_row"></div>
+
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                 <div id="menu"><h4>PRESS ANY KEY TO GET STARTED!</h4></div>
+            </div>
+        </div>
+    </div><!-- ./container -->
+    
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
