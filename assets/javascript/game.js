@@ -159,7 +159,6 @@ function setCharAtIndex(str,index,chr) {
 }
 
 function playAudio(index) {
-    alert(index);
     var x = document.createElement("AUDIO");
     var audioFile = "assets/audios/audio_" + index + ".mp3";
     if (x.canPlayType("audio/mpeg")) {
